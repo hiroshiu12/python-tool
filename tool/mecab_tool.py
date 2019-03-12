@@ -1,3 +1,6 @@
+import MeCab
+import re
+
 def create_voclist(sentence,in_pos=['名詞','感動詞'],stop_word = [],inc_num=False):
     """
     sentence : string, assume natural sentence to be analyze
